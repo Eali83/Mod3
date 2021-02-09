@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    h1 {
+        color:yellow;
+        font-style: italic;
+        font-size: 28px;
+    }
+    h2 {
+        color:whitesmoke;
+        font-style: italic;
+        font-size: 30px;
+    }
+    h3 {
+        color:purple;
+        font-style: italic;
+        font-size: 24px;
+    }
+    p {
+        color:black;
+        font-style: bold;
+        font-size: 28px;
+        
+        
+    }
+
+        body {
+        margin: 0;
+        font-family: 'Franklin Gothic Medium', 'Arial, sans-serif';
+    }
+    
+            body {
+                background-color:plum;
+            }
+    
+    .topnav a {
+        float:right;
+        color: maroon;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        position: above;
+    }
+    .topnav a:hover{
+        background-color: black;
+        color: yellow ;
+    }
+    .topnav a:active {
+        background-color: black ;
+        color: royalblue;
+
+    }
+      
+    </style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("button").click(function(){
+    $("div").animate({left: '1000'});
+  });
+});
+
+</script> 
+</head>
+
+  
+<body>
+<p>Welcome to my page</p>
+<center><div style="background-color: rgb(49, 11, 155);">
+  <h1>{ Make something good always }</h1>
+  <h2>To the rescue with Superman...!</h2>
+  </div></center>
+  <button>Launch</button>
+  
+</body>
+
+<div style="height:200px;width:200px;position:absolute;">
+<img id="sldr" src="Su.jpg" style="position: absolute;"/></div>
+
+<body>
+  <div><h3> Hurray....!</h3></div>
+   
+   
+      <div class="topnav">
+      <a href="#about me">About Me</a>
+      <a href="#projects">Projects</a>
+      <a href="#resume">Resume</a>
+      <a href="#contacts">Contacts</a>
+    </body>
+</html>
